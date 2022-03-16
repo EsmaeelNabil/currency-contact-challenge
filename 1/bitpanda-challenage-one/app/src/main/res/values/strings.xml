@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Bitpanda</string>
+    <string name="invalid_url">invalid url</string>
+    <string name="error">error</string>
+    <string name="internet_error_message">internet_error_message</string>
+    <string name="time_out_message">time out message</string>
+    <string name="neuladen">Neuladen</string>
+    <string name="probleme">Probleme</string>
+    <string name="probleme_details">Die Daten konnten nich geladen werden wedrden wercden werdenwerdenwerdenwerden werdenwerden werden</string>
+    <string name="price">"Preis : "</string>
+</resources>
