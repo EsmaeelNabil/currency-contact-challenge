@@ -7,6 +7,7 @@ import com.esmaeel.challenge.data.remote.models.CurrencyType
 import com.esmaeel.challenge.data.repositories.Repository
 import com.esmaeel.challenge.data.sortedByOrder
 import com.esmaeel.challenge.di.ContextProvider
+import com.esmaeel.challenge.domain.repositories.IRepository
 import com.esmaeel.challenge.domain.usecases.UseCase
 import kotlinx.coroutines.flow.*
 import javax.inject.Inject
@@ -22,7 +23,7 @@ import javax.inject.Singleton
 */
 @Singleton
 class GetCurrenciesUseCase @Inject constructor(
-    private val repo: Repository,
+    private val repo: IRepository,
     private val contextProvider: ContextProvider,
 ) : UseCase<Flow<List<Currency>>, CurrencyType> {
 
